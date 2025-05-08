@@ -35,6 +35,7 @@ public class E3 extends JFrame implements ActionListener {
         add(mainpanel, BorderLayout.CENTER);
         add(buttonPanel, BorderLayout.NORTH);
 
+        setTitle("Change color");
         setSize(500, 300);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
